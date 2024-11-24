@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sign-up</a></li>
+        </ul>
+    </nav>
+</header>
+    <h1>Welcome to our online library</h1>
+    <h2>Today's top pick</h2>
+    <p class="top"><b>Our selections for today include a variety of Classic Novels</b></p>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Link</th>
+            
+        </tr>
+        <tr>
+            <th>Sense and Sensibility</th>
+            <th>Jane Austen</th>
+            <th>1811</th>
+            <th><a href="https://www.goodreads.com/book/show/14935.Sense_and_Sensibility">Link</a></th>
+        </tr>
+        <tr>
+            <th>To kill a Mockingbird</th>
+            <th>Harper Lee</th>
+            <th>1960</th>
+            <th><a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird">Link</a></th>
+        </tr>
+        <tr>
+            <th>The Great Gatsby</th>
+            <th>F. Scott Fitzgerald</th>
+            <th>1925</th>
+            <th><a href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby">Link</a></th>
+        </tr>
+        <tr>
+            <th>Little Women</th>
+            <th>Louisa May Alcott</th>
+            <th>1868</th>
+            <th><a href="https://www.goodreads.com/book/show/1934.Little_Women">Link</a></th>
+        </tr>
+    </table>
+
+    <h3 class="animation">Coming soon to our library</h3>
+    <p class="new"><i>Expect to catch these books in the new year!</i></p>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <th>Things Fall Apart</th>
+            <th>Chinua Achebe</th>
+            <th>1958</th>
+            <th><a href="https://www.goodreads.com/book/show/37781.Things_Fall_Apart">Link</a></th>
+        </tr>
+        <tr>
+            <th>A Tale of Two Cities</th>
+            <th>Charles Dickens</th>
+            <th>1859</th>
+            <th><a href="https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities">Link</a></th>
+        </tr>
+        <tr>
+            <th>Les Miserables</th>
+            <th>Victor Hugo</th>
+            <th>1862</th>
+            <th><a href="https://www.goodreads.com/book/show/24280.Les_Mis_rables">Link</a></th>
+        </tr>
+        <tr>
+            <th>War and Peace</th>
+            <th>Leo Tolstoy</th>
+            <th>1867</th>
+            <th><a href="https://www.goodreads.com/book/show/656.War_and_Peace">Link</a></th>
+        </tr>
+    </table>
+   <p class="marked"><mark>If you would like to become a member, please register here!</mark></p>
+   <form>
+        <label for ="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br/>
+        <label for ="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br/>
+        <label for ="password">Password:</label>
+        <input type="text" id="password" name="password" required>
+        <br/>
+        <div class="radio">
+           <label for ="gender">Female</label>
+           <input type="radio"  name="gender" value="female" required>
+           <label for ="gender">Male</label>
+           <input type="radio"  name="gender" value="male" required>
+         </div>
+    <div class="genre">
+        <label for="genre">Pick your favorite genre:</label>
+        <select id="genre" name="genre" required>
+        <option>Genre</option>
+        <option value="romance">Romance</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="biography">Biography</option>
+        <option value="historical">Historical</option>
+        <option value="sci-fi">Sci-fi</option>
+        </select>
+    </div>
+        <div class="check">
+           <label class="checkbox"><input type="checkbox" name="checkbox" required>
+           I agree to the terms and conditions.
+           </label>
+        </div>
+        <br/>
+        <button type="submit">Submit</button>
+   </form>
+</body>
+</html>
